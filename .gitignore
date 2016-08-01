@@ -1,0 +1,5 @@
+# JetBrains Applications
+.idea/
+
+#Bower
+bower_components/

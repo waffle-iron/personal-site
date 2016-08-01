@@ -1,0 +1,22 @@
+{
+  "name": "personal-site",
+  "authors": [
+    "Aaron Steed <asteed7@gmail.com>"
+  ],
+  "description": "A personal site to advertise myself as a developer.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/aaronsteed/personal-site",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "animate.css": "git@github.com:daneden/animate.css.git#^3.5.2"
+  }
+}
