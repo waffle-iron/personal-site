@@ -1,0 +1,11 @@
+# JetBrains Applications
+.idea/
+
+#Bower
+bower/
+
+#Node 
+node_modules/
+
+#Build Directory
+dist/

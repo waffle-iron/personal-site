@@ -1,0 +1,26 @@
+{
+  "name": "personal-site",
+  "description": "A profile for Aaron Steed, to advertise himself as a 
+                  full stack web developer, software enginner and final year student.",
+  "version": "0.1.0",
+  "author": "Aaron Steed <asteed7@gmail.com",
+  "homepage": "https://github.com/aaronsteed/personal-site",
+  "email": "asteed7@gmail.com",
+  "os": ["darwin", "linux"],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-cssmin": "~1.0.1",
+    "grunt-contrib-htmlmin": "~2.0.0",
+    "grunt-contrib-imagemin": "~1.0.1",
+    "imagemin-mozjpeg": "5.1.0"
+  },
+  "license": "MIT"
+}
