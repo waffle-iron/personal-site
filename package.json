@@ -1,7 +1,6 @@
 {
   "name": "personal-site",
-  "description": "A profile for Aaron Steed, to advertise himself as a 
-                  full stack web developer, software enginner and final year student.",
+  "description": "A profile for Aaron Steed, to advertise himself as a full stack web developer, software enginner and final year student.",
   "version": "0.1.0",
   "author": "Aaron Steed <asteed7@gmail.com",
   "homepage": "https://github.com/aaronsteed/personal-site",
