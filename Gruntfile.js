@@ -114,6 +114,24 @@ module.exports = function(grunt) {
                 dest: '<%= dist %>'
               }]
             }
+        },
+        version: {
+            project: {
+                src: ['package.json', 'bower.json']
+            }
+        },
+        compress: {
+            main: {
+                options: {
+                    archive: '<%= dist %>' + '/zip/archive.zip'
+                },
+                files: [{
+                    expand: true,
+                    cwd: '<%= dist %>',
+                    src: ['**/*'],
+                    dest: '<%= dist %>' + '/zip/',
+                }]
+            }
         }
     });
 
@@ -126,7 +144,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-compress');
+    grunt.loadNpmTasks('grunt-version');
 
     // Default task.
-    grunt.registerTask('default', ['clean', 'jshint', 'concat', 'uglify', 'cssmin', 'htmlmin', 'imagemin']);
+    grunt.registerTask('default', ['clean', 'jshint', 'concat', 'uglify', 'cssmin', 'htmlmin', 'imagemin', 'compress']);
 };

@@ -25,6 +25,7 @@ Install Node from [here!](https://nodejs.org/en/) depending on your OS.
         -  Concatenating CSS and JS files
         -  'Linting' JS files 
 
+---
 ### Installation
 To download all dependencies, assuming you have downloaded and installed NodeJS, you will also have downloaded and installed NPM (Node Package Manager). Verify you have node and NPM.
 
@@ -53,7 +54,7 @@ To install Grunt in use for deployments :
 $  npm install grunt
 ```
 
-
+---
 ### Deployment
 Grunt  is used to deploy our project. grunt minifies, concatenates project files and optimizes images for maximum effeciency. 
 
@@ -81,13 +82,14 @@ The available plug-ins are as follows:
 
 NOTE : `imagemin-mozjpeg - v5.1.0` is required as Grunt hasn't been updated to support v6.0.0
  
+ ---
 ### Version
-**0.1.0**
+**0.1.1**
 
 ### Todos
- - Finish off website fully
- - Localhost setup
- - Full development environment within project
+ - Finish off website fully :sparkler:
+ - Localhost setup :computer:
+ - Full development environment within project :outbox_tray:
 
 License
 ----

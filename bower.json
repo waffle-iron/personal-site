@@ -1,17 +1,17 @@
 {
   "name": "personal-site",
-  "authors": [
-    "Aaron Steed <asteed7@gmail.com>"
-  ],
   "description": "A personal site to advertise myself as a developer.",
-  "main": "",
-  "license": "MIT",
+  "version": "0.1.1",
+  "authors": ["Aaron Steed <asteed7@gmail.com>"],
+  "main": "src/personal-site/html/index.html",
   "homepage": "https://github.com/aaronsteed/personal-site",
+  "email": "asteed7@gmail.com",
+  "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "bower/",
     "test",
     "tests"
   ],
