@@ -1,10 +1,11 @@
 {
   "name": "personal-site",
   "description": "A profile for Aaron Steed, to advertise himself as a full stack web developer, software enginner and final year student.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Aaron Steed <asteed7@gmail.com",
   "homepage": "https://github.com/aaronsteed/personal-site",
   "email": "asteed7@gmail.com",
+  "license": "MIT",
   "os": ["darwin", "linux"],
   "engines": {
     "node": ">= 0.10.0"
@@ -19,7 +20,8 @@
     "grunt-contrib-cssmin": "~1.0.1",
     "grunt-contrib-htmlmin": "~2.0.0",
     "grunt-contrib-imagemin": "~1.0.1",
-    "imagemin-mozjpeg": "5.1.0"
-  },
-  "license": "MIT"
+    "imagemin-mozjpeg": "5.1.0",
+    "grunt-contrib-compress": "1.3.0",
+    "grunt-version": "1.1.1"
+  }
 }
