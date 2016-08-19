@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/aaronsteed/personal-site.png?label=ready&title=Ready)](https://waffle.io/aaronsteed/personal-site)
 # personal-site
 
 > A profile for Aaron Steed, to advertise himself as a full stack web developer, software enginner and final year student.
