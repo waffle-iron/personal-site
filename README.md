@@ -1,4 +1,5 @@
 [![Stories in Ready](https://badge.waffle.io/HurdAudio/personal-site.png?label=ready&title=Ready)](https://waffle.io/HurdAudio/personal-site)
+[![Stories in Ready](https://badge.waffle.io/HurdAudio/personal-site.png?label=ready&title=Ready)](https://waffle.io/HurdAudio/personal-site)
 [![Stories in Ready](https://badge.waffle.io/aaronsteed/personal-site.png?label=ready&title=Ready)](https://waffle.io/aaronsteed/personal-site)
 # personal-site
 
